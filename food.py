@@ -28,5 +28,4 @@ class Food:
         self.ycor = y_random
 
     def clear_food(self):
-        self.food_item.clear() 
-        
+        self.food_item.clear()

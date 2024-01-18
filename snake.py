@@ -28,7 +28,7 @@ class Snake:
                 trt.penup()
                 trt.goto(self.snake_body[i-1].xcor()-20, self.snake_body[i-1].ycor())
                 self.snake_body.append(trt)
-
+                
     def move(self):
         body_len = len(self.snake_body)-1
         for i in range(body_len, -1, -1):
